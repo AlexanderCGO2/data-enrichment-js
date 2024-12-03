@@ -288,7 +288,7 @@ const workflow = new StateGraph(
     input: InputStateAnnotation,
   },
   ConfigurationAnnotation,
-  { recursionLimit: 110 } // Add this line to set the recursion limit
+  { recursionLimit: 100 } // Add this line to set the recursion limit
 )
   .addNode("callAgentModel", callAgentModel)
   .addNode("reflect", reflect)
