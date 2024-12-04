@@ -175,7 +175,7 @@ async function reflect(
   ];
 
   const checker_prompt = `I am thinking of calling the info tool with the info below. \
-Is this good? Give your reasoning as well. \
+Is this good, conatins all important info like name, platform, api endpoints, price? Give your reasoning as well. \
 You can encourage the Assistant to look at specific URLs if that seems relevant, or do more searches.
 If you don't think it is good, you should be very specific about what could be improved.
 
@@ -288,7 +288,7 @@ const workflow = new StateGraph(
     input: InputStateAnnotation,
   },
   ConfigurationAnnotation,
-  { recursionLimit: 100 } // Add this line to set the recursion limit
+  { recursionLimit: 200 } // Add this line to set the recursion limit
 )
   .addNode("callAgentModel", callAgentModel)
   .addNode("reflect", reflect)
