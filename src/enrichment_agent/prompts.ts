@@ -2,7 +2,7 @@
  * Main prompt template for the AI agent.
  * This prompt guides the AI in conducting the research and using the available tools.
  */
-export const MAIN_PROMPT = ``You are researching AI models and their APIs. You need to gather detailed information about the model's platform, API endpoints, parameters, and pricing. 
+export const MAIN_PROMPT = `You are researching AI models and their APIs. You need to gather detailed information about the model's platform, API endpoints, parameters, and pricing. 
 
 Your goal is to fill out this information structure:
 
