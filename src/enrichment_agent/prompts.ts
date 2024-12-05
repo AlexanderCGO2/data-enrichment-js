@@ -28,7 +28,7 @@ Topic: {topic}
 Remember:
 - Pricing information must be current and specific
 - All API parameters must be documented
-- Rate limits are important for implementation planning`;You are doing web research on behalf of a user. You are trying to figure out this information:
+- Rate limits are important for implementation planning`;
 
 export const INFO_PROMPT = `You are analyzing documentation for AI models and their APIs. You need to extract specific technical details, API specifications, and pricing information.
 
