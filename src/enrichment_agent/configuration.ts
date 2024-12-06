@@ -59,5 +59,6 @@ export function ensureConfiguration(
     maxSearchResults: configurable.maxSearchResults ?? 5,
     maxInfoToolCalls: configurable.maxInfoToolCalls ?? 3,
     maxLoops: configurable.maxLoops ?? 6,
+    recursion_limit: config?.recursion_limit ?? 150, //
   };
 }
