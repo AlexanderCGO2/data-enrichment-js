@@ -175,7 +175,7 @@ async function reflect(
   ];
 
   const checker_prompt = `I am thinking of calling the info tool with the info below. \
-Is this good enough? Give your reasoning as well. \
+Is this good? Give your reasoning as well. \
 You can encourage the Assistant to look at specific URLs if that seems relevant, or do more searches.
 If you don't think it is good, you should be very specific about what could be improved.
 
@@ -287,7 +287,7 @@ const workflow = new StateGraph(
     stateSchema: StateAnnotation,
     input: InputStateAnnotation,
   },
-  ConfigurationAnnotation,// Add this line to set the recursion limit
+  ConfigurationAnnotation,
 )
   .addNode("callAgentModel", callAgentModel)
   .addNode("reflect", reflect)
