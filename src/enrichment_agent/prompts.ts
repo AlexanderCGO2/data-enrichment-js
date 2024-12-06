@@ -16,7 +16,7 @@ You have access to the following tools:
 
 Try to find the relevant urls first, as an example for replicate the api: https://replicate.com/proivder/modelname/api
 and or the api json schema https://replicate.com/provider/modelname/api/schema und the json is there under the json tab.
-Here is the information you have about the topic you are researching:
+Here is the information you have about the topic you are researching, stay in this domain (like replicate.com) to research the information:
 
 Topic: {topic}`;
 
